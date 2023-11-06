@@ -1,0 +1,418 @@
+.navbar {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos al principio y al final de la barra de navegación */
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a.navbar-item {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    color: hsl(0, 14%, 95%);
+}
+.logo {
+    margin-right: 30px;
+    margin-bottom: 14px/* Ajusta el margen derecho según sea necesario para separar el logo del menú */
+}
+
+/* ------------- Login ---------------------------- */
+
+.box .group {
+    height: 400px;
+    left: 0;
+    top: 0;
+    width: 700px;
+}
+
+.box .overlap-group {
+    height: 548px;
+    position: relative;
+}
+
+.box .rectangle {
+    background-color: #000044;
+    border-radius: 25px;
+    height: 500px;
+    left: 0;
+    position: absolute;
+    top: 78px;
+    width: 700px;
+}
+
+.box .div {
+    background-color: #0f0955;
+    border-radius: 25px;
+    height: 450px;
+    left: 25px;
+    position: absolute;
+    top: 103px;
+    width: 650px;
+}
+
+.box .ellipse {
+    height: 78px;
+    left: 274px;
+    position: absolute;
+    top: 0;
+    width: 156px;
+}
+
+.box .ellipse-2 {
+    background-color: #0f0955;
+    border-radius: 65.5px;
+    height: 131px;
+    left: 286px;
+    position: absolute;
+    top: 12px;
+    width: 131px;
+}
+
+.box .logonotasconetwithe {
+    height: 100px;
+    left: 302px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 100px;
+}
+.box .rectangle-login {
+    background-color: #1e1266;
+    border-radius: 15px;
+    height: 90px;
+    left: 600px;
+    position: absolute;
+    top: 75px;
+    width: 361px;
+}
+
+.box .user {
+    height: 90px;
+    left: 580px;
+    object-fit: cover;
+    position: absolute;
+    top: 75px;
+    width: 90px;
+}
+
+.box .text-cuenta {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 730px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 118px;
+}
+
+.box .text-wrapper-registrar {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 750px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 140px;
+}
+
+.box .text-wrapper-sesion {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    left: 715px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    white-space: nowrap;
+}
+.box .email-wrapper {
+    background: #3B2387;
+    padding-top: 10px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: #ffffff80;
+    font-size: 24px;
+    font-weight: 400;
+    left: 580px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    white-space: nowrap;
+}
+
+.box .clave-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #3B2387;
+    color: #ffffff80;
+    font-size: 24px;
+    font-weight: 400;
+    left: 580px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 280px;
+    white-space: nowrap;
+}
+.box-wrapper{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background: #000044;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    left: 320px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 480px;
+    white-space: nowrap;
+}
+
+.bo-wrapper{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background: #000044;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    left: 670px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 350px;
+    white-space: nowrap;
+}
+
+.gmail-wrapper{
+    left: 738px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 428px;
+    white-space: nowrap;
+}
+
+/* ------------- Registrar ---------------------------- */
+
+.box .re-wrapper {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 180px;
+    white-space: nowrap;
+}
+
+.box .rectangle-registrar {
+    background-color: #1e1266;
+    border-radius: 15px;
+    height: 90px;
+    left: 200px;
+    position: absolute;
+    top: 160px;
+    width: 361px;
+}
+
+.box .user-registrar {
+    height: 90px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 160px;
+    width: 90px;
+}
+
+
+.form-group-nombre{
+    background: #3B2387;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #ffffff80;
+    font-size: 20px;
+    left: 80px;
+    position: absolute;
+    top: 280px;
+}
+
+.form-group-apellido{
+    background: #3B2387;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #ffffff80;
+    font-size: 20px;
+    left: 370px;
+    position: absolute;
+    top: 280px;
+}
+
+.form-group-email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 310px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #3B2387;
+    color: #ffffff80;
+    font-size: 20px;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 340px;
+}
+.form-group-clave{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 310px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #3B2387;
+    color: #ffffff80;
+    font-size: 20px;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 400px;
+}
+
+.form-group-confirmar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 310px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #3B2387;
+    color: #ffffff80;
+    font-size: 20px;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 460px;
+}
+
+.form-group-registrar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    background: #000044;
+    color: #fff;
+    font-size: 20px;
+    left: 250px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 525px;
+}
+.gmail-wrapper-registrar{
+    left: 330px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 590px;
+    white-space: nowrap;
+}
+
+.box .div-fondo {
+    background-color: #0f0955;
+    border-radius: 25px;
+    height: 550px;
+    left: 25px;
+    position: absolute;
+    top: 103px;
+    width: 650px;
+}
+
+.box .rectangle-fondo {
+    background-color: #000044;
+    border-radius: 25px;
+    height: 595px;
+    left: 0;
+    position: absolute;
+    top: 78px;
+    width: 700px;
+}
+.imagen{
+    margin-left: 240px;
+}
+
+
+
+/* ---------------- Home --------------- */
+
+
+.button {
+    background-color: #000044;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ----------------------- Descargar ------------------------------- */
+
+.windows-download{
+    background-image: url('../../public/img/icons/windows.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ubicación de tu imagen */
+    background-size: 30px;
+    background-position: left center;
+    background-position-x: 10px;
+    padding-right: 100px;
+    margin-right: 60px;
+}
+
+.display-1.font-weight-bold.text-start{
+    font-size: 40px;
+    margin-right: 250px;
+    text-align: left;
+}
+.text-start{
+    margin-right: 250px;
+    text-align: left;
+}
+.btn.btn{
+    margin-left: -450px;
+}
